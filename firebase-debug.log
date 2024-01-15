@@ -1,0 +1,36 @@
+[debug] [2024-01-15T08:18:45.824Z] ----------------------------------------------------------------------
+[debug] [2024-01-15T08:18:45.826Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Liam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-01-15T08:18:45.826Z] CLI Version:   13.0.3
+[debug] [2024-01-15T08:18:45.827Z] Platform:      win32
+[debug] [2024-01-15T08:18:45.827Z] Node Version:  v18.14.0
+[debug] [2024-01-15T08:18:45.828Z] Time:          Mon Jan 15 2024 03:18:45 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-15T08:18:45.828Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-15T08:18:45.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-15T08:18:45.893Z] > authorizing via signed-in user (123liamspillane@gmail.com)
+[debug] [2024-01-15T08:18:45.893Z] [iam] checking project liam-s-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-15T08:18:45.895Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/liam-s-website:testIamPermissions [none]
+[debug] [2024-01-15T08:18:45.895Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/liam-s-website:testIamPermissions x-goog-quota-user=projects/liam-s-website
+[debug] [2024-01-15T08:18:45.895Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liam-s-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-15T08:18:46.042Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/liam-s-website:testIamPermissions 200
+[debug] [2024-01-15T08:18:46.042Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/liam-s-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-15T08:18:46.043Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/liam-s-website [none]
+[debug] [2024-01-15T08:18:46.306Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/liam-s-website 200
+[debug] [2024-01-15T08:18:46.306Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/liam-s-website {"projectId":"liam-s-website","projectNumber":"977604592536","displayName":"Liam's Website","name":"projects/liam-s-website","resources":{"hostingSite":"liam-s-website"},"state":"ACTIVE","etag":"1_ee1aa1df-1c11-45eb-a128-8c5e4c31e190"}
+[debug] [2024-01-15T08:18:50.249Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/liam-s-website/sites pageToken=&pageSize=10
+[debug] [2024-01-15T08:18:50.608Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/liam-s-website/sites 200
+[debug] [2024-01-15T08:18:50.608Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/liam-s-website/sites {"sites":[{"name":"projects/liam-s-website/sites/liam-s-website","defaultUrl":"https://liam-s-website.web.app","appId":"1:977604592536:web:866aec929bcd3808c4a1ed","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-15T08:18:50.608Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:977604592536:web:866aec929bcd3808c4a1ed/config [none]
+[debug] [2024-01-15T08:18:51.034Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:977604592536:web:866aec929bcd3808c4a1ed/config 200
+[debug] [2024-01-15T08:18:51.034Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:977604592536:web:866aec929bcd3808c4a1ed/config {"projectId":"liam-s-website","appId":"1:977604592536:web:866aec929bcd3808c4a1ed","storageBucket":"liam-s-website.appspot.com","apiKey":"AIzaSyCSaaTriTNXI6nfLxSaQfT12rMaOuDrjSg","authDomain":"liam-s-website.firebaseapp.com","messagingSenderId":"977604592536","measurementId":"G-MBWKG7203E"}
+[info] 
+   Thank you for trying our experimental support for SvelteKit on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
