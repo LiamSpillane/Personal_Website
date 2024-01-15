@@ -8,5 +8,26 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+		<script>
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "firebase/app";
+			import { getAnalytics } from "firebase/analytics";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+				apiKey: "AIzaSyCSaaTriTNXI6nfLxSaQfT12rMaOuDrjSg",
+				authDomain: "liam-s-website.firebaseapp.com",
+				projectId: "liam-s-website",
+				storageBucket: "liam-s-website.appspot.com",
+				messagingSenderId: "977604592536",
+				appId: "1:977604592536:web:866aec929bcd3808c4a1ed",
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		</script>
 	</body>
 </html>
