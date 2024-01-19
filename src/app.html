@@ -4,9 +4,19 @@
 		<meta charset="utf-8" />
 		<title>Liam Spillane</title>
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<link rel="stylesheet" href="./src/global.css" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+			body {
+				margin: 0px;
+				background: rgb(80, 35, 196)
+			}
+			h1,h2,h3,h4,a,p {
+				font-family: 'Ubuntu';
+				font-weight: normal;
+			}
+		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
