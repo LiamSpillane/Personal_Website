@@ -1,13 +1,13 @@
 <div class="socials">
     <div class="link">
         <a href="https://www.linkedin.com/in/liam-r-spillane" target="_blank">
-            <img src="static/linkedin.png" alt="LinkedIn">
-        </a>        
+            <img src="src/static/linkedin.png" alt="LinkedIn">
+        </a>
     </div>
     <div class="social">
         <a href="https://github.com/LiamSpillane" target="_blank">
-            <img src="static/github.png" alt="GitHub">
-        </a>    
+            <img src="src/static/github.png" alt="GitHub">
+        </a>
     </div>
 </div>
 
