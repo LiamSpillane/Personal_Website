@@ -1,5 +1,6 @@
 <script>
     import Navbar from "../lib/navbar.svelte";
+    import SocialLinks from "../lib/socialLinks.svelte";
 </script>
 
 <main>
@@ -7,6 +8,7 @@
     <slot></slot>
 </main>
 <footer>
+    <SocialLinks />
     <p>Copyright 2024 Liam Spillane</p>
 </footer>
 

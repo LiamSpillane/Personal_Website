@@ -1,4 +1,4 @@
-<!-- Landing Page -->
+<!-- Home -->
 
 <h1>Welcome to my website!</h1>
 <p>My name is Liam Spillane and I am a senior Computer Science student at Liberty University majoring in Software Engineering and Data Science with a minor in Mathematics. This website is currently still under development, but it will act as my portfolio once it is completed.</p>
