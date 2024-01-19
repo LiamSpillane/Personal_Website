@@ -4,7 +4,7 @@
             <img src="$lib/images/linkedin.png" alt="LinkedIn">
         </a>
     </div>
-    <div class="social">
+    <div class="link">
         <a href="https://github.com/LiamSpillane" target="_blank">
             <img src="$lib/images/github.png" alt="GitHub">
         </a>
@@ -14,10 +14,16 @@
 <style>
     .socials {
         display: flex;
-        justify-content: center;
+        justify-content: right;
     }
 
     img {
         width: 32px;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+
+    .link:hover {
+        background: rgb(43, 13, 122);
     }
 </style>

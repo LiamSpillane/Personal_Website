@@ -1,20 +1,23 @@
 <script>
     import Navbar from "../lib/navbar.svelte";
-    import SocialLinks from "../lib/socialLinks.svelte";
 </script>
 
+<Navbar />
 <main>
-    <Navbar />
     <slot></slot>
 </main>
 <footer>
-    <SocialLinks />
     <p>Copyright 2024 Liam Spillane</p>
 </footer>
 
 <style>
+    main {
+        color: white;
+        padding: 0px 20px;
+    }
+
     footer {
         text-align: center;
-        color: rgba(0, 0, 0, 0.4);
+        color: rgba(255, 255, 255, 0.4);
     }
 </style>
