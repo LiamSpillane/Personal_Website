@@ -43,7 +43,7 @@
     </div>
     <ul>
         <li>Tutored classes Computer Architecture, Programming Language Design & Compiler Theory</li>
-        <li>[second bullet]</li>
+        <li>Instructed 25+ students, offering understandable explanations of advanced computer science concepts</li>
     </ul>
     <div class="right">
         <p><em>Customer Service Associate,</em> <strong>Walmart</strong> - Warrington, PA</p>
