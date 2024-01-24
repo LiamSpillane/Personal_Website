@@ -20,10 +20,10 @@
     img {
         width: 32px;
         padding: 10px;
-        filter: grayscale(100%);
+        filter: grayscale(100%) brightness(25%) invert(1);
     }
 
     .link:hover {
-        background: rgb(43, 13, 122);
+        background: rgb(20, 20, 22);
     }
 </style>

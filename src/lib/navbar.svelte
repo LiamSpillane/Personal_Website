@@ -15,7 +15,7 @@
     .navbar {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 7fr;
-        background: rgb(52, 16, 145);
+        background: rgb(34, 32, 39);
     }
 
     a {
@@ -32,6 +32,6 @@
     }
 
     .link:hover {
-        background: rgb(43, 13, 122);
+        background: rgb(20, 20, 22);
     }
 </style>
