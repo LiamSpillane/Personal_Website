@@ -6,14 +6,13 @@
     <a href="/"><div class="link">Home</div></a>
     <a href="/projects"><div class="link">Projects</div></a>
     <a href="/resume"><div class="link">Resume</div></a>
-    <a href="/roblox"><div class="link">Roblox</div></a>
     <SocialLinks />
 </div>
 
 <style>
     .navbar {
         display: grid;
-        grid-template-columns: 10% 10% 10% 10% auto;
+        grid-template-columns: 10% 10% 10% auto;
         background: rgb(34, 32, 39);
     }
 
