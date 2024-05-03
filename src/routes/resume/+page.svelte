@@ -12,7 +12,7 @@
     </div>
     <div class="right">
         <p><strong><em>Bachelor of Science in Computer Science</em></strong></p>
-        <p class="right"><strong>GPA</strong>: 3.50</p>
+        <p class="right"><strong>GPA</strong>: 3.51</p>
     </div>
     <ul>
         <li>Concentrations in Data Science and Software Engineering</li>
